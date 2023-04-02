@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.question {
+    border: black 1px solid;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.question-header {
+    font-size: large;
+}
+
+.send-btn {
+    font-size: large;
+    border-width: black 1px solid;
+    padding: 5px 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <div class="question">
+                    <p class="question-header">
+                        First question
+                    </p>
+                    <select name="" id="">
+                        <option value="Yes">Yes</option>
+                        <option value="NO">NO</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="question">
+                    <p class="question-header">
+                        Second question
+                    </p>
+                    <input type="text" placeholder="Enter answer">
+                </div>
+            </li>
+            <li>
+                <div class="question">
+                    <p class="question-header">
+                        Third question
+                    </p>
+                    <input type="radio" id="yes-answer" name="Yes" value="Yes">
+                    <label for="yes-answer">Yes</label>
+                    <input type="radio" id="no-answer" name="No" value="No">
+                    <label for="no-answer">No</label>
+                </div>
+            </li>
+        </ul>
+        <button class="send-btn">
+            Send
+        </button>
+    </div>
+</body>
+</html>
